@@ -54,6 +54,7 @@ our $schema = [hash => {
                 cmdline_on_getopt => {},
                 cmdline_prompt => {},
                 completion => {},
+                index_completion => {},
                 element_completion => {},
                 cmdline_src => {},
                 meta => 'fix',
