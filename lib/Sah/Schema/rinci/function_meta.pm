@@ -67,6 +67,7 @@ our $schema = [hash => {
                         none => {},
                     },
                 },
+                examples => {},
             },
         },
         args_as => {},
