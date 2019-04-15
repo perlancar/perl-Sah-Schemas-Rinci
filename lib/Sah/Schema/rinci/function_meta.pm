@@ -38,7 +38,8 @@ our $schema = [hash => {
                 default => {},
                 req => {},
                 pos => {},
-                greedy => {},
+                slurpy => {},
+                greedy => {}, # old alias for slurpy, will be removed in Rinci 1.2
                 partial => {},
                 stream => {},
                 is_password => {},
