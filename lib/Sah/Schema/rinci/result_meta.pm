@@ -17,6 +17,7 @@ our $schema = [hash => {
     _prop => {
         %Sah::Schema::rinci::meta::_dh_props,
 
+        schema => {},
         perm_err => {},
         func => {}, # XXX func.*
         cmdline => {}, # XXX cmdline.*
